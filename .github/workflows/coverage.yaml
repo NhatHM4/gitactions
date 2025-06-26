@@ -4,6 +4,16 @@ on:
         branches:
             - master
             - main
+permissions:
+    pull_request_target: write
+    contents: read
+    issues: write
+    pull_requests: write
+    statuses: write
+    checks: write
+    actions: read
+    deployments: write
+    discussions: read
 jobs:
     coverage:
         runs-on: ubuntu-latest
