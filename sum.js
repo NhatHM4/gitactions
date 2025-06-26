@@ -1,5 +1,6 @@
 function sum(a, b) {
-    // Return the sum of a and b
+    if (a === b) {
+
         return a + b;
 }
 
