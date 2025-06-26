@@ -1,0 +1,15 @@
+{
+    "name": "testgitactions",
+    "version": "1.0.0",
+    "description": "Node.js project with simple Jest unit test",
+    "main": "sum.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.0.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
