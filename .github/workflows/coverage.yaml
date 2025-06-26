@@ -6,7 +6,11 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
-  
+
+permissions:
+  checks: write
+  contents: read
+
 jobs:
   coverage:
     runs-on: ubuntu-latest
@@ -24,4 +28,4 @@ jobs:
 
       - uses: ArtiomTr/jest-coverage-report-action@v2
         with: 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
