@@ -1,19 +1,13 @@
 name: 'coverage'
 on:
-    pull_request_target:
+    pull_request:
         branches:
             - master
             - main
 permissions:
-    pull_request_target: write
-    contents: read
-    issues: write
-    pull_requests: write
-    statuses: write
     checks: write
-    actions: read
-    deployments: write
-    discussions: read
+    pull-requests: write
+    contents: read
 jobs:
     coverage:
         runs-on: ubuntu-latest
