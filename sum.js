@@ -1,8 +1,6 @@
 function sum(a, b) {
-    if (a === b) {
-
-        return a + b;
-    }
+    // If numbers are not equal, return their sum
+    return a + b;
 }
 
 module.exports = sum;
