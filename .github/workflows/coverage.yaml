@@ -6,11 +6,11 @@ on:
             - main
 jobs:
     coverage:
-        permissions:
-          checks: write
-          pull-requests: write
-          contents: write
         runs-on: ubuntu-latest
+        permissions:
+            checks: write
+            pull-requests: write
+            contents: read
         steps:
             - uses: actions/checkout@v3
             - uses: ArtiomTr/jest-coverage-report-action@v2
