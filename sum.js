@@ -5,6 +5,5 @@ function sum(a, b) {
 
 
 module.exports = {
-    sum,
-    subtract
+    sum : sum
 };
