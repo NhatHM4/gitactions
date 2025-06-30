@@ -3,5 +3,10 @@ function sum(a, b) {
         return a + b;
 }
 
+function diff(a, b) {
+    // If numbers are not equal, return their difference
+    return a - b;
+}
 
-module.exports = sum;
+
+module.exports = { sum, diff };
