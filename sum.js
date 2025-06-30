@@ -6,9 +6,5 @@ function sum(a, b) {
     return a - b; // If numbers are equal, return their difference
 }
 
-function difference(a, b) {
-    // If numbers are equal, return their difference
-        return a - b;
-}
 
 module.exports = { sum, difference };
