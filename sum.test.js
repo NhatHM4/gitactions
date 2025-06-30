@@ -19,4 +19,8 @@ test('subtracts 3 - 5 to equal -2', () => {
   expect(diff(3, 5)).toBe(-2);
 });
 
+test('subtracts 0 - 0 to equal 0', () => {
+  expect(diff(0, 0)).toBe(0);
+});
+
 
