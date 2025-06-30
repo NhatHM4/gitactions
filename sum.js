@@ -4,4 +4,7 @@ function sum(a, b) {
 }
 
 
-module.exports =  sum ;
+module.exports = {
+    sum,
+    subtract
+};
